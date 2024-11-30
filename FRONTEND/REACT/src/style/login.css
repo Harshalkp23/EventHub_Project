@@ -1,0 +1,76 @@
+/* Global styles to ensure the body takes the full height */
+
+
+/* Style for the main content area to ensure it accounts for the navbar */
+.body {
+  padding-top: 100px; /* Space for the fixed navbar */
+}
+
+/* Container for the login form */
+.login-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height:50vh; /* Adjust based on the height of your navbar */
+  margin: 0 auto; /* Center container horizontally */
+  padding: 20px;
+  margin-top: 10px;
+  border: 1px solid rgb(0, 0, 0); 
+  border-radius: 4px; /* Rounded corners for a softer look */
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5); /* Gray shadow for depth */
+  max-width: 400px; /* Maximum width for better layout control */
+  width: 50%; /* Full width within its parent container */
+  top: 10vh;
+  
+ 
+}
+.textdec h4{
+ 
+  text-shadow: yellowgreen;
+  box-shadow: yellowgreen;
+}
+
+/* Style for the form inside the login container */
+.login-container form {
+display: flex;
+flex-direction: column;
+gap: 15px; /* Increased gap between form elements */
+width: 100%;
+}
+
+/* Style for form inputs */
+.login-container input {
+padding: 12px; /* Increased padding for a more comfortable touch */
+border: 1px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+width: 100%; /* Ensure inputs fill the width of the container */
+box-sizing: border-box; /* Includes padding in the element's total width and height */
+}
+
+/* Style for buttons */
+.login-container button {
+padding: 12px;
+border: none; /* Remove default border */
+border-radius: 4px;
+font-size: 16px;
+cursor: pointer;
+background-color: #51b4ff; /* Green background color */
+color: white;
+transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Button hover effect */
+.login-container button:hover {
+background-color: #45a049; /* Darker green on hover */
+}
+
+/* Style for error messages */
+.login-container .error {
+color: red;
+font-weight: bold;
+margin: 10px 0; /* Margin to separate from other elements */
+}

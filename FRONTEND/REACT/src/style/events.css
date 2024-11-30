@@ -1,0 +1,50 @@
+/* Container for the events component */
+.events-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Title of the events section */
+  .events-container h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  /* List of events */
+  .events-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Individual event card */
+  .event-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  /* Event title */
+  .event-card h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #007bff;
+  }
+  
+  /* Event date */
+  .event-card .event-date {
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  /* General paragraph style */
+  .event-card p {
+    margin: 10px 0 0;
+    color: #333;
+  }
+  

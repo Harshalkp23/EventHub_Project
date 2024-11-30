@@ -1,0 +1,30 @@
+/* Custom CSS for card spacing */
+.card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .container{
+    position: relative;
+    margin-top: -100px;
+  }
+
+  .spacing1{
+    margin-left: 10px;
+  }
+  .spacing2{
+    margin-left: 10px;
+  }
+  .spacing3{
+    margin-left: 10px;
+  }

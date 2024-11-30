@@ -1,0 +1,24 @@
+
+.movie-card {
+    transition: transform 0.2s;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-card img {
+    height: 200px;
+    width: 200px;
+    object-fit: fill;
+  }
+  
+  .modal.show.d-block {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: white;
+  }
+  

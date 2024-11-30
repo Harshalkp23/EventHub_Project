@@ -1,0 +1,61 @@
+
+
+.body {
+  background-image: url("../images/wp10715806-event-management-wallpapers.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 56px; 
+}
+
+
+
+.registration-container {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0 auto; /* Center container horizontally */
+  padding: 40px;
+  border: 0px solid rgb(0, 0, 0); 
+  border-radius: 4px;
+  background-color: #f5f5f5; 
+  padding-top: 56px; 
+}
+
+.registration-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  text-align: center;
+  align-items: center;
+}
+
+.registration-container label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.registration-container input,
+.registration-container button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 20vw;
+  align-items: center;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+  font-size: 0.9em;
+}
